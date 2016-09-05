@@ -1,5 +1,11 @@
 ##Roboti kokku panemine
 
+* [Mootorite monteerimine](#mootorite-monteerimine)
+* [Saha monteerimine](#saha-monteerimine)
+* [Aju ühendamine](#aju-ühendamine)
+* [Joonejälgimisandurite ühendamine](#joonejälgimisandurite-ühendamine)
+* [Robot valmis](#robot-valmis)
+
 ###Mootorite monteerimine
 
 Kinnita distantskruvid ühele kere jaoks ette nähtud plaatidest:

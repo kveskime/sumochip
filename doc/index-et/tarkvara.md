@@ -1,4 +1,18 @@
 ##Tarkvara
+* [Tarkvara](#tarkvara)
+    * [Tarkvara paigaldus](#tarkvara-paigaldus)
+    * [Ohjurtarkvara paigaldus](#ohjurtarkvara-paigaldus)
+    * [Jadaliidese avamine](#jadaliidese-avamine)
+    * [Robotisse sisse logimine](#robotisse-sisse-logimine)
+    * [Võrgu seadistamine](#võrgu-seadistamine)
+    * [Operatsioonisüsteemi uuendamine](#operatsioonisüsteemi-uuendamine)
+    * [Sõltuvuste paigaldamine](#sõltuvuste-paigaldamine)
+    * [Sumoroboti tarkvara paigaldus](#sumoroboti-tarkvara-paigaldus)
+* [Terminaliga ringi käimine](#robot-valmis)
+    * [Enimkasutatavad käsud](#enimkasutatavad-käsud)
+    * [Failide redigeerimine terminalis](#failide-redigeerimine-terminalis)
+    
+
 
 Sumoroboti baastarkvara on kirjutatud Python programmeerimiskeeles kasutades Flask veebirakenduste raamistikku. Baastarkvara lähtekood on kättesaadav GitHubist aadressil https://github.com/laurivosandi/sumochip ning parandused ning täiendused on teretulnud.
 

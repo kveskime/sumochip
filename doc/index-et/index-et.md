@@ -10,6 +10,6 @@ Lisaks on vaja akutrelli, 3mm metallpuuri, plekikääre, kruvikeerajat, näpitsa
 
 [TOC]
 
-1.[link](komponendid.md "Komponendid").
+1.[Komponendid](komponendid.md "Komponendid").
 2.
 3.

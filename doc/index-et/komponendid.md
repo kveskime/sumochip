@@ -4,19 +4,19 @@ Järgnevalt on välja toodud 10 roboti ehitamise jaoks vajalikud komponendid nin
 
 | Pilt                                  | Kirjeldus                              | Hulk     | Rida kokku |
 |---------------------------------------|----------------------------------------|----------|------------|
-| ![CHIP](img/chip.png)                 | NextThingCo C.H.I.P.                   | 10tk     |  94.32 EUR |
-| ![Servo](img/pservo.png)              | Plastik hammasratastega servo FS90R    | 20tk     |  63.63 EUR |
-| ![Spoked wheel](img/spoked-wheel.png) | Rattad                                 | 20tk     |  34.70 EUR |
-| ![LiPo](img/lipo.png)                 | Liitiumpolümeeraku 3.7V 1100mAh        | 10tk+    |  51.46 EUR |
-| ![PCB](img/sumochip.png)              | SumoCHIP trükkplaat MakerStudiost      | 10tk     |  15.20 EUR |
-| ![IR](img/ir-led.png)                 | Infrared emitter and receiver          | 50 paari |   3.91 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 100 ohm resistors                      | 120tk    |   1.20 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 10k ohm resistors                      | 30tk     |   0.60 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 100k ohm resistors                     | 50tk     |   0.60 EUR |
-| ![Päis](img/straight-header.jpg)      | 40-pin 2.54mm male straight header     | 13tk     |   1.02 EUR |
-| ![Päis](img/angled-header.jpg)        | 40-pin 2.54mm male angled header       | 1tk      |   0.44 EUR |
-| ![SMD LED](img/smd-led.jpg)           | LED-ide assortii                       | 50pcs    |   0.98 EUR |
-| ![2N7000](img/2n7000.jpg)             | 60V 200mA N-channel MOSFET             | 10pcs    |   0.85 EUR |
+| ![CHIP](../img/chip.png)                 | NextThingCo C.H.I.P.                   | 10tk     |  94.32 EUR |
+| ![Servo](../img/pservo.png)              | Plastik hammasratastega servo FS90R    | 20tk     |  63.63 EUR |
+| ![Spoked wheel](../img/spoked-wheel.png) | Rattad                                 | 20tk     |  34.70 EUR |
+| ![LiPo](../img/lipo.png)                 | Liitiumpolümeeraku 3.7V 1100mAh        | 10tk+    |  51.46 EUR |
+| ![PCB](../img/sumochip.png)              | SumoCHIP trükkplaat MakerStudiost      | 10tk     |  15.20 EUR |
+| ![IR](../img/ir-led.png)                 | Infrared emitter and receiver          | 50 paari |   3.91 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 100 ohm resistors                      | 120tk    |   1.20 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 10k ohm resistors                      | 30tk     |   0.60 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 100k ohm resistors                     | 50tk     |   0.60 EUR |
+| ![Päis](../img/straight-header.jpg)      | 40-pin 2.54mm male straight header     | 13tk     |   1.02 EUR |
+| ![Päis](../img/angled-header.jpg)        | 40-pin 2.54mm male angled header       | 1tk      |   0.44 EUR |
+| ![SMD LED](../img/smd-led.jpg)           | LED-ide assortii                       | 50pcs    |   0.98 EUR |
+| ![2N7000](../img/2n7000.jpg)             | 60V 200mA N-channel MOSFET             | 10pcs    |   0.85 EUR |
 |                                       |                                        | Kokku:   | 270    EUR |
 |                                       |                                        | Robot:   |  27    EUR |
 
@@ -42,9 +42,9 @@ Valikulised asenduskomponendid
 
 | Pilt                      | Kirjeldus                    | Hulk | Hind       | Vahesumma | Hinnavahe |
 |---------------------------|------------------------------|------|------------|-----------|-----------|
-| ![Servo](img/mservo.png)  | Metallhammasratastega servo  | 2tk  |   4.86 EUR |  9.72 EUR | +3.40 EUR |
-| ![Wheel](img/wheel.png)   | Servo ratas                  | 2tk  |   2.19 EUR |  4.38 EUR | +0.94 EUR |
-| ![OPB745](img/opb745.jpg) | Optek OPB745 jooneanduriks   | 3tk  |   3.00 EUR |  9.00 EUR | +9.00 EUR |
+| ![Servo](../img/mservo.png)  | Metallhammasratastega servo  | 2tk  |   4.86 EUR |  9.72 EUR | +3.40 EUR |
+| ![Wheel](../img/wheel.png)   | Servo ratas                  | 2tk  |   2.19 EUR |  4.38 EUR | +0.94 EUR |
+| ![OPB745](../img/opb745.jpg) | Optek OPB745 jooneanduriks   | 3tk  |   3.00 EUR |  9.00 EUR | +9.00 EUR |
 
 Lingid hankimiseks:
 
@@ -87,7 +87,7 @@ SumoCHIP trükkplaadi hankimiseks on laias laastus neli varianti:
 
 Kicadi projekti leiab Git lähtekoodivaramust, sellest saab eksportida LinuxCNC jaoks sobivas formaadis failid. Freesimine käib kolmes etapis: esmalt freesitakse V-tüüpi otsikuga alumine pool (back.ngc); seejärel puuritakse augud (drill.ngc); jargnevalt pööratakse trükkplaat ümber, kinnitatakse külgmistesse aukudesse ning lõpuks freesitakse trükkplaadi ülemine pool (front.ngc). Näide CNC masinaga trükkplaadi freesimisest:
 
-![Pilt freesimisest](img/cnc-milling-pcb.jpg)
+![Pilt freesimisest](../img/cnc-milling-pcb.jpg)
 
 
 
@@ -113,3 +113,6 @@ Kontrolli testeriga, et omavahel lühises ei oleks:
 * Maa ja 3.3V rajad
 * Maa ja 5V rajad
 * 3.3V ja 5V rajad
+
+[Tagasi avalehele](index-et.md "Avalehele")
+[Edasi kokkupanemine](kokkupanemine.md "Kokkupanemine")

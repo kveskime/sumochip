@@ -9,45 +9,45 @@ Sumorobotit saab veebi kaudu programmeerida aga selleks et seda üldse teha on v
 
 Kuna CHIP-il pole videoväljundeid on kuvari ühendamine problemaatiline. Eelistatud on hoopiski üle USB kaabli jadaliidese kasutamine selleks, et robotile teha esmane seadistus. Windows puhul on vaja paigaldada ohjurtarkvara, et üldse USB kaablit kasutada saaks. Mac OS X ning Linux puhul seda teha vaja pole.
 
-![Serial](img/kit/62-connecting-via-usb.jpg)
+![Serial](../img/kit/62-connecting-via-usb.jpg)
 
 ###Ohjurtarkvara paigaldus
 
 Ubuntu ning Mac OS X all ohjurtarkvara paigaldada pole vaja, Windowsi puhul on asi mõnevõrra keerukam. Ava *Device Manager*:
 
-![Device manager](img/usbser/01.png)
+![Device manager](../img/usbser/01.png)
 
 Leia nimistust kollase kolmnurgaga *CDC Composite Gadget* ning tee parem klõps sellel ning vali menüüst *Update Driver Software...*:
 
-![Device manager](img/usbser/02.png)
+![Device manager](../img/usbser/02.png)
 
 Järgnevalt vali *Browse my computer for driver software*:
 
-![Device manager](img/usbser/03.png)
+![Device manager](../img/usbser/03.png)
 
 Seejärel vali *Let me pick from a list of device drivers on my computer*:
 
-![Device manager](img/usbser/04.png)
+![Device manager](../img/usbser/04.png)
 
 Jäta valituks *Show All Devices* ning klõpsa *Next* nupul:
 
-![Device manager](img/usbser/05.png)
+![Device manager](../img/usbser/05.png)
 
 Keri vasakpoolses nimekirjas allapoole ning vali *Microsoft* seejärel keri parempoolses nimekirjas alla ning vali *USB Serial Device*:
 
-![Device manager](img/usbser/06.png)
+![Device manager](../img/usbser/06.png)
 
 Hoiatusaknas klõpsa *Yes* nupul:
 
-![Device manager](img/usbser/07.png)
+![Device manager](../img/usbser/07.png)
 
 Ohjurtarkvara peaks olema seejärel edukalt paigaldatud:
 
-![Device manager](img/usbser/08.png)
+![Device manager](../img/usbser/08.png)
 
 Seadmete nimekirja peaks tekkima uus *USB Serial Device* seade. Jäta selle jadaliidese number meelde, järgneval kuvatõmmisel on ta nimeks COM6:
 
-![Device manager](img/usbser/09.png)
+![Device manager](../img/usbser/09.png)
 
 
 ###Jadaliidese avamine
@@ -137,11 +137,11 @@ sumochip_test
 
 Kontrolli, et jooneandurite LED-id toimivad. Selleks vaata jooneanduritesse mobiiltelefoni kaamera kaudu. Kaameras paistab infrapuna violetsena:
 
-![Checking line sensors](img/kit/63-checking-line-sensors.jpg)
+![Checking line sensors](../img/kit/63-checking-line-sensors.jpg)
 
 Soorita sama kontroll ka vastase tuvastamise sensoritel:
 
-![Checking enemy sensors](img/kit/64-checking-enemy-sensors.jpg)
+![Checking enemy sensors](../img/kit/64-checking-enemy-sensors.jpg)
 
 
 
@@ -192,3 +192,5 @@ Failide avamine käib samamoodi:
 mcedit tee/failini.py
 ```
 Menüüdes navigeerimine käib analoogselt graafiliste rakendustega, Alt-F avab peamenüü. Kiirklahvidest kõige olulisemad on F5 kopeerimiseks, F6 lõikamiseks ning F10 programmist väljumiseks.
+
+[Avalehele](index-et.md "Avalehele")

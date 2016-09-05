@@ -3,6 +3,10 @@
 * [Alternatiivsed komponendid](#alternatiivsed-komponendid)
 * [Emaplaat](#emaplaat)
 * [Tütarplaat](#tütarplaat)
+    * [Tütarplaadi skeem](#tütarplaadi-skeem)
+    * [Trükkplaadi hankimine](#trükkplaadi-hankimine)
+    * [Komponentide jootmine](#komponentide-jootmine)
+    * [Plaadi testimine](#plaadi-testimine)
 
 Järgnevalt on välja toodud 10 roboti ehitamise jaoks vajalikud komponendid ning umbkaudne kulu koos saatmisega Euroopa Liitu. Kauba sisenedes EU-sse võivad lisanduda veel importmaksud:
 

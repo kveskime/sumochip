@@ -15,45 +15,45 @@ Since CHIP has no video output connecting a screen is problematic.
 Preferred usage would be serial connection via USB cable, to set up the device. For windows additional driver installation is needed to be able to use the USB cable.
 Mac OS X or Linux do not have these problems.
 
-![Serial](img/kit/62-connecting-via-usb.jpg)
+![Serial](../img/kit/62-connecting-via-usb.jpg)
 Ohjurtarkvara minema siit.
 ###Installing drivers
 
 For Ubuntu and Mac OS X driver installation is not needed, for Windows driver installation is necessary. Open Device Manager:
 
-![Device manager](img/usbser/01.png)
+![Device manager](../img/usbser/01.png)
 
 Find CDC Composite Gadget marked with a yellow triangle and right click on it and select *Update Driver Software...*:
 
-![Device manager](img/usbser/02.png)
+![Device manager](../img/usbser/02.png)
 
 Click on *Browse my computer for driver software*:
 
-![Device manager](img/usbser/03.png)
+![Device manager](../img/usbser/03.png)
 
 Select *Let me pick from a list of device drivers on my computer*:
 
-![Device manager](img/usbser/04.png)
+![Device manager](../img/usbser/04.png)
 
 Select *Show All Devices* and click on *Next*:
 
-![Device manager](img/usbser/05.png)
+![Device manager](../img/usbser/05.png)
 
 Scroll down on the list on the left and choose *Microsoft*. After scroll down in the righthand list and select *USB Serial Device*:
 
-![Device manager](img/usbser/06.png)
+![Device manager](../img/usbser/06.png)
 
 On the pop-up warning window click *Yes*:
 
-![Device manager](img/usbser/07.png)
+![Device manager](../img/usbser/07.png)
 
 Drivers should now be installed:
 
-![Device manager](img/usbser/08.png)
+![Device manager](../img/usbser/08.png)
 
 A new *USB Serial Device* should appear to device list. Remember the serial number as it will be needed later. On this particular screenshot it is COM6:
 
-![Device manager](img/usbser/09.png)
+![Device manager](../img/usbser/09.png)
 
 
 ###Opening serial connection
@@ -149,11 +149,11 @@ sumochip_test
 ```
 
 Check that the line sensors LEDs work. For this look into the line sensors with your mobile phone camera. Infrared will appear as violet in the camera:
-![Checking line sensors](img/kit/63-checking-line-sensors.jpg)
+![Checking line sensors](../img/kit/63-checking-line-sensors.jpg)
 
 Perform the same check on the sensors for detecting enemies:
 
-![Checking enemy sensors](img/kit/64-checking-enemy-sensors.jpg)
+![Checking enemy sensors](../img/kit/64-checking-enemy-sensors.jpg)
 
 
 

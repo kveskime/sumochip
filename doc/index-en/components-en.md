@@ -4,19 +4,19 @@ The following list contains the components and their approximate cost with shipp
 
 | Picture                               | Description                            | Quantity | Total      |
 |---------------------------------------|----------------------------------------|----------|------------|
-| ![CHIP](img/chip.png)                 | NextThingCo C.H.I.P.                   | 10pcs    |  94.32 EUR |
-| ![Servo](img/pservo.png)              | Plastik hammasratastega servo FS90R    | 20pcs    |  63.63 EUR |
-| ![Spoked wheel](img/spoked-wheel.png) | Rattad                                 | 20pcs    |  34.70 EUR |
-| ![LiPo](img/lipo.png)                 | Liitiumpolümeeraku 3.7V 1100mAh        | 10pcs    |  51.46 EUR |
-| ![PCB](img/sumochip.png)              | SumoCHIP trükkplaat MakerStudiost      | 10pcs    |  15.20 EUR |
-| ![IR](img/ir-led.png)                 | Infrared emitter and receiver          | 50 pairs |   3.91 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 100 ohm resistors                      | 120pcs   |   1.20 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 10k ohm resistors                      | 30pcs    |   0.60 EUR |
-| ![SMD resistor](img/smd-resistor.jpg) | 100k ohm resistors                     | 50pcs    |   0.60 EUR |
-| ![Header](img/straight-header.jpg)    | 40-pin 2.54mm male straight header     | 13pcs    |   1.02 EUR |
-| ![Header](img/angled-header.jpg)      | 40-pin 2.54mm male angled header       | 1pcs     |   0.44 EUR |
-| ![SMD LED](img/smd-led.jpg)           | LED-ide assortii                       | 50pcs    |   0.98 EUR |
-| ![2N7000](img/2n7000.jpg)             | 60V 200mA N-channel MOSFET             | 10pcs    |   0.85 EUR |
+| ![CHIP](../img/chip.png)                 | NextThingCo C.H.I.P.                   | 10pcs    |  94.32 EUR |
+| ![Servo](../img/pservo.png)              | Plastik hammasratastega servo FS90R    | 20pcs    |  63.63 EUR |
+| ![Spoked wheel](../img/spoked-wheel.png) | Rattad                                 | 20pcs    |  34.70 EUR |
+| ![LiPo](../img/lipo.png)                 | Liitiumpolümeeraku 3.7V 1100mAh        | 10pcs    |  51.46 EUR |
+| ![PCB](../img/sumochip.png)              | SumoCHIP trükkplaat MakerStudiost      | 10pcs    |  15.20 EUR |
+| ![IR](../img/ir-led.png)                 | Infrared emitter and receiver          | 50 pairs |   3.91 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 100 ohm resistors                      | 120pcs   |   1.20 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 10k ohm resistors                      | 30pcs    |   0.60 EUR |
+| ![SMD resistor](../img/smd-resistor.jpg) | 100k ohm resistors                     | 50pcs    |   0.60 EUR |
+| ![Header](../img/straight-header.jpg)    | 40-pin 2.54mm male straight header     | 13pcs    |   1.02 EUR |
+| ![Header](../img/angled-header.jpg)      | 40-pin 2.54mm male angled header       | 1pcs     |   0.44 EUR |
+| ![SMD LED](../img/smd-led.jpg)           | LED-ide assortii                       | 50pcs    |   0.98 EUR |
+| ![2N7000](../img/2n7000.jpg)             | 60V 200mA N-channel MOSFET             | 10pcs    |   0.85 EUR |
 |                                       |                                        | Total:   | 270    EUR |
 |                                       |                                        |Per Robot:|  27    EUR |
 
@@ -42,9 +42,9 @@ Optional substitute components
 
 | Picture                   | Description                  | Quantity | Price  | Total     | Difference|
 |---------------------------|------------------------------|------|------------|-----------|-----------|
-| ![Servo](img/mservo.png)  | Servo with metal gears       | 2tk  |   4.86 EUR |  9.72 EUR | +3.40 EUR |
-| ![Wheel](img/wheel.png)   | Servo wheel                  | 2tk  |   2.19 EUR |  4.38 EUR | +0.94 EUR |
-| ![OPB745](img/opb745.jpg) | Optek OPB745 line sensor     | 3tk  |   3.00 EUR |  9.00 EUR | +9.00 EUR |
+| ![Servo](../img/mservo.png)  | Servo with metal gears       | 2tk  |   4.86 EUR |  9.72 EUR | +3.40 EUR |
+| ![Wheel](../img/wheel.png)   | Servo wheel                  | 2tk  |   2.19 EUR |  4.38 EUR | +0.94 EUR |
+| ![OPB745](../img/opb745.jpg) | Optek OPB745 line sensor     | 3tk  |   3.00 EUR |  9.00 EUR | +9.00 EUR |
 
 Alternative component URLs:
 
@@ -102,7 +102,7 @@ Following flip the PCB, fasten it and rout the top side(front.ngc).
 
 Example of the PCB:
 
-![Picture of routing](img/cnc-milling-pcb.jpg)
+![Picture of routing](../img/cnc-milling-pcb.jpg)
 
 
 
@@ -130,4 +130,4 @@ Use a tester to verify that the following points do not create a short circuit:
 * 3.3V ja 5V traces
 
 [Return to main page](index-en.md "Main page")
-[Next chapter(Assembly)](assembly-en.md "Assembly")
+[Assembly](assembly-en.md "Assembly")

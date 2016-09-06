@@ -13,6 +13,8 @@ would be easy to etch at home or school.
 Documentation will be available in various languages:
 
 * [Estonian](doc/index-et.md)
+* [English](doc/index-en.md)
+
 
 
 ##Kits
